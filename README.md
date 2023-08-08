@@ -1,14 +1,14 @@
 # RDA-Resources
 
 This website will contain popular posts made by the community in order to easily consolidate them all in one place.
-- It is a subdomain of https://robloxdevelopmentassistance.org/
+- It is a subdomain of https://robloxscriptingassistance.org/
 
-This repository is currently only moderated by Thodor12 and PogChonk.
+This repository is currently only moderated by TinyPanda.
 
 # Contributing
 
-Make a [Pull Request](https://github.com/PogChonk/RSA-Resources/pulls) and have your file follow the specified criteria.
-If Thodor12 or Pog Chonk finds your article acceptable/useful, we will format and modify the rest to match our other articles and merge it.
+Make a [Pull Request](https://github.com/RSA-Internal/RSA-Resources/pulls) and have your file follow the specified criteria.
+If your article is found acceptable/useful, it will be formatted and modified to match our other articles and then merged.
 
 ## Criteria
 ### Filename
