@@ -5,7 +5,7 @@ layout: none
   {% for category in categories %}{
     "id": "{{ category.name }}",
     "name": "{{ category.name | capitalize | jsonify }}",
-    "url": "{{ "RSA-Resources/category/" | append: category.name | absolute_url }}",
+    "url": "{{ "/category/" | append: category.name | absolute_url }}",
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
