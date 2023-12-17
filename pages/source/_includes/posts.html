@@ -12,7 +12,7 @@
 {% for post in post_group.items %}
 <li>
     <p>
-        <a href="RDA-Resources{{ post.url }}">{{ post.title }}</a> by {{ post.author }}
+        <a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author }}
         <br/><small class="text-muted">Category: <a href="/category/{{ post.category }}" class="text-muted">{{ post.category | capitalize }}</a></small>
         <br/><small class="text-muted">
             Date: {{ post.date | date: "%d" }}
