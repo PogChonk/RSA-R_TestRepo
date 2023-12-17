@@ -6,10 +6,11 @@ gem "rake"
 
 group :test do
     gem "test-unit"
-    gem "param_test"
 end
 
 group :jekyll_plugins do
     gem "github-pages", "~> 225"
     gem "jekyll-archives"
 end
+
+gem "param_test", "~> 0.2.0"
