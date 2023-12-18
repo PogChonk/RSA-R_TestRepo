@@ -14,4 +14,4 @@ group :jekyll_plugins do
     gem "jekyll-archives"
 end
 
-gem "param_test"
+gem 'param_test', git: 'https://github.com/TinyPandas/param-test-ruby'
