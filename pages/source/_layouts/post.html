@@ -2,7 +2,7 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<h6><a href="{{ site.url }}" class="text-decoration-none">< Back to overview</a></h6>
+<h6><a href="{{ site.url }}/" class="text-decoration-none">< Back to overview</a></h6>
 <hr />
 {{ content }}
 {% if page.links.size > 0 %}
@@ -19,4 +19,4 @@ layout: default
 <h6>Category: {{ page.category | capitalize }}</h6>
 <h6>Date: {{ page.date | date_to_long_string }}</h6>
 <hr />
-<h6><a href="{{ site.url }}" class="text-decoration-none">< Back to overview</a></h6>
+<h6><a href="{{ site.url }}/" class="text-decoration-none">< Back to overview</a></h6>
