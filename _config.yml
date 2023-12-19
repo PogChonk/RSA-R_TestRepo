@@ -4,7 +4,7 @@ invite_link: https://discord.com/invite/FCmRaM42EV
 source: ./pages/source
 destination: ./pages/build
 
-url: https://pogchonk.github.io/RSA-R_TestRepo
+url: https://rsa-internal.github.io/RSA-Resources/
 
 markdown: kramdown
 kramdown:
