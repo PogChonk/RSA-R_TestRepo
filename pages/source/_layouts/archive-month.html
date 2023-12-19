@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2>Posts from month: {{ page.date | date: "%B %Y" }}</h2>
-<h6><a href="/" class="text-decoration-none">< Back to overview</a></h6>
+<h6><a href="{{ site.url }}" class="text-decoration-none">< Back to overview</a></h6>
 <hr />
 
 {% include posts.html %}
