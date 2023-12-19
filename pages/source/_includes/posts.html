@@ -12,8 +12,8 @@
 {% for post in post_group.items %}
 <li>
     <p>
-        <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a> by {{ post.author }}
-        <br/><small class="text-muted">Category: <a href="{{ site.url }}/category/{{ post.category }}" class="text-muted">{{ post.category | capitalize }}</a></small>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> by {{ post.author }}
+        <br/><small class="text-muted">Category: <a href="{{ site.url }}/category/{{ post.category | downcase }}" class="text-muted">{{ post.category | capitalize }}</a></small>
         <br/><small class="text-muted">
             Date: {{ post.date | date: "%d" }}
             <a href="{{ site.url }}/year/{{ post.date | date: '%Y' }}/month/{{ post.date | date: '%m' }}" class="text-muted">{{ post.date | date: "%B" }}</a>
