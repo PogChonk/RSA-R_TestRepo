@@ -3,6 +3,7 @@ layout: post
 title: Studio Widgets
 category: Studio
 author: Thodor12
+tags: ["Thodor12"]
 ---
 
 # Problems with Studio widgets not showing up?

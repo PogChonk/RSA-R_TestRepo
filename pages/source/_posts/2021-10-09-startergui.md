@@ -3,6 +3,7 @@ layout: post
 title: Using StarterGui
 category: Scripting
 author: Thodor12
+tags: ["Thodor12"]
 ---
 
 StarterGui is a service which lets you clone GUI's to any player their PlayerGui folders, however you should avoid using it in code directly.
