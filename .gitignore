@@ -13,3 +13,6 @@ pages/build
 
 # Prevent test files from being committed
 tests
+
+# Prevent git files from being comitted
+.git
