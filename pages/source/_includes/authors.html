@@ -1,8 +1,10 @@
 {% assign author_groups = site.posts | group_by_exp: "item", "item.author" | sort_natural: "name" %}
 
 <h6><a href="{{ site.url }}/" class="text-decoration-none">< Back to overview</a></h6>
+<h6><a href="{{ site.url }}/authors/" class="text-decoration-none">< View all authors</a></h6>
+<h6><a href="{{ site.url }}/categories/" class="text-decoration-none">> View all categories</a></h6>
 {% for author_group in author_groups %}
-<h3 id="{{ author_group.name | downcase }}">{{ author_group.name }}</h3>
+<h3 id="{{ author_group.name | downcase }}"><a href="{{ page.url }}#{{ author_group.name | downcase }}">{{ author_group.name }}</a></h3>
 <ul class="author-list">
 {% assign post_group = author_group.items | sort %}
 {% for post in post_group %}
@@ -22,3 +24,5 @@
 {% unless forloop.last %}<hr />{% endunless %}
 {% endfor %}
 <h6><a href="{{ site.url }}/" class="text-decoration-none">< Back to overview</a></h6>
+<h6><a href="{{ site.url }}/authors/" class="text-decoration-none">< View all authors</a></h6>
+<h6><a href="{{ site.url }}/categories/" class="text-decoration-none">> View all categories</a></h6>

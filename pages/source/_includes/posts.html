@@ -5,7 +5,6 @@
     {%- comment -%} Else we use the standard jekyll site.posts to render all posts {%- endcomment -%}
     {% assign post_groups = site.posts | group_by_exp: "item", "item.title | truncate: 1, '' | upcase" | sort: "name" %}
 {% endunless %}
-<h6><a href="{{ site.url }}/authors/" class="text-decoration-none">> View all authors</a></h6>
 {% for post_group in post_groups %}
 <h3 id="{{ post_group.name | downcase }}"><a href="#{{ post_group.name | downcase }}" class="text-decoration-none">{{ post_group.name }}</a></h3>
 <ul class="post-list">
@@ -26,4 +25,3 @@
 </ul>
 {% unless forloop.last %}<hr />{% endunless %}
 {% endfor %}
-<h6><a href="{{ site.url }}/authors/" class="text-decoration-none">> View all authors</a></h6>
